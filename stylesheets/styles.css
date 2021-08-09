@@ -5,6 +5,20 @@ body {
 	color: white;
 }
 
+footer {
+    position: fixed;
+    font-size: 10px;
+    bottom: 0px;
+}
+
+.footer-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+
+}
+
 h1 {
 	font-size: 50px;
 	color: rgb(97, 137, 47);
@@ -15,7 +29,7 @@ button {
 	background: rgb(134, 194, 50);
 }
 
-ul {
+.menu-list {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -25,12 +39,15 @@ ul {
 
 li {
 	float: left;
+    padding: 14px 16px
 }
 
 li a {
 	text-decoration: none;
 	color: white;
 	text-align: center;
+    padding: 14px 16px;
+
 }
 
 li a:hover {
