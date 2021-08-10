@@ -1,5 +1,5 @@
 body {
-	background: rgb(34, 38, 41);
+	background: #222629;
 	font-family: 'Share Tech Mono', monospace;
 	font-size: 25px;
 	color: white;
@@ -21,12 +21,12 @@ body {
 
 .title-main {
 	font-size: 50px;
-	color: rgb(97, 137, 47);
-	text-align: center;
+	color: #61892f;
+	text-align: left;
 }
 
 button {
-	background: rgb(134, 194, 50);
+	background: #86c232;
 }
 
 .menu-list {
@@ -34,7 +34,7 @@ button {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: rgb(71, 75, 79);
+	background-color: #222629;
 }
 
 .menu-list-item {
@@ -46,8 +46,12 @@ button {
 }
 
 .menu-list-item:hover {
-	background: rgb(134, 194, 50);
+	background: #86C232;
 }	
+
+.active {
+    background: #61892F;
+}
 
 form {
 	padding: 20px 20px;
