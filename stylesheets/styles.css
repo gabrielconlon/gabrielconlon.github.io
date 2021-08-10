@@ -49,7 +49,7 @@ button {
 	background: #86C232;
 }	
 
-.active {
+.menu-list-item:active {
     background: #61892F;
 }
 
