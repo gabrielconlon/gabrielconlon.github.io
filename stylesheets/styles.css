@@ -1,11 +1,13 @@
-/*! stylesheet for gabrielconlon@github.io */
+/* stylesheet for gabrielconlon@github.io */
 body {
 	background: #222629;
 	font-family: 'Share Tech Mono', monospace;
 	font-size: 25px;
 	color: white;
+    margin: 0px 0px;
 }
 
+/* Header and Footer */
 .footer-main {
     position: fixed;
     font-size: 10px;
@@ -32,10 +34,7 @@ body {
 	text-align: left;
 }
 
-button {
-	background: #86c232;
-}
-
+/* Menu Bar */
 .menu-list {
 	list-style-type: none;
 	margin: 0;
@@ -74,4 +73,11 @@ body.about li.about a {
 
 .table-columns-branding {
     padding: 0px 10px;
+}
+
+.login {
+    float:right;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    font-size: 10px;
 }
