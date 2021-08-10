@@ -3,21 +3,16 @@ https://www.leonpaternoster.com/posts/writing-markdown-blogging-guide/ -->
 
 <!DOCTYPE html>
     <head>
+        <title>Blog</title>
         <link rel="stylesheet" href="stylesheets/styles.css">
+        <script src="scripts/w3.js"></script>
     </head>
     <body>
         <h1>Blog</h1>
-
-        <ul class="menu-list">
-		    <li>
-            	<a href="/index.html">Home</a>
-		    </li>
-		    <li>
-            	<a href="/blog.html">Blog</a>
-		    </li>
-            <li style="float:right">
-                <a href="/about.html">About</a>
-            </li>
-        </ul>
+        <div w3-include-html="menu/menu-header.html"></div>
+        <div w3-include-html="menu/footer.html"></div>
+        <script>
+        w3.includeHTML();
+        </script>
     </body>
 </html>
