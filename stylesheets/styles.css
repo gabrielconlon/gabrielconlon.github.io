@@ -5,7 +5,7 @@ body {
 	color: white;
 }
 
-footer {
+.footer-main {
     position: fixed;
     font-size: 10px;
     bottom: 0px;
@@ -16,9 +16,10 @@ footer {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+    float: left;
 }
 
-h1 {
+.title-main {
 	font-size: 50px;
 	color: rgb(97, 137, 47);
 	text-align: center;
@@ -50,4 +51,14 @@ button {
 
 form {
 	padding: 20px 20px;
+}
+
+.table-branding {
+    font-size:15px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.table-columns-branding {
+    padding: 0px 10px;
 }
