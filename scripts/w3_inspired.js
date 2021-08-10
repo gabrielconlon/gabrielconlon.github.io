@@ -5,6 +5,8 @@ https://www.w3schools.com/w3js/
 All credit for the below functions should go to them
 */
 
+"use strict";
+var w3 = {};
 w3.includeHTML = function(cb) {
   var z, i, elmnt, file, xhttp;
   z = document.getElementsByTagName("*");
