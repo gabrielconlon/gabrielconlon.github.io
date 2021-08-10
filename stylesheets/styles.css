@@ -1,3 +1,4 @@
+/*! stylesheet for gabrielconlon@github.io */
 body {
 	background: #222629;
 	font-family: 'Share Tech Mono', monospace;
@@ -16,6 +17,12 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+    
+}
+
+.footer-list-item {
+    text-align: center;
+    padding: 0 5px;
     float: left;
 }
 
@@ -48,16 +55,15 @@ button {
 	float: left;
 }
 
-.menu-list-item:hover {
+.menu-list-item:hover:not(.active) {
 	background: #86C232;
 }	
 
-..menu-list-item:active {
-    background: #61892F;
-}
-
-form {
-	padding: 20px 20px;
+ul li:active, 
+body.home li.home a,
+body.blog li.blog a,
+body.about li.about a {
+    background: #61892f;
 }
 
 .table-branding {
