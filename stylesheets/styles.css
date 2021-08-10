@@ -34,7 +34,7 @@ button {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #222629;
+	background-color: #474b4f;
 }
 
 .menu-list-item {
@@ -45,7 +45,7 @@ button {
 	float: left;
 }
 
-.menu-list-item:hover {
+.menu-list-item:hover:not(.active) {
 	background: #86C232;
 }	
 
