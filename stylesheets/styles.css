@@ -36,19 +36,15 @@ button {
 	background-color: rgb(71, 75, 79);
 }
 
-li {
-	float: left;
-    padding: 14px 16px;
-}
-
-li a {
+.menu-list-item {
 	text-decoration: none;
 	color: white;
 	text-align: center;
     padding: 14px 16px;
+	float: left;
 }
 
-li a:hover {
+.menu-list-item:hover {
 	background: rgb(134, 194, 50);
 }	
 

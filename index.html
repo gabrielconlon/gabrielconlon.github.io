@@ -2,29 +2,30 @@
     <head>
         <title>Gabriel Conlon</title>
         <link rel="stylesheet" href="stylesheets/styles.css">
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
     </head>
     
     <body>
 
         <h1>Hello World </h1>
-
-        <ul class="menu-list">
-		    <li>
-            	<a href="/index.html">Home</a>
-		    </li>
-		    <li>
-            	<a href="/blog.html">Blog</a>
-		    </li>
-            <li style="float:right">
-                <a href="/about.html">About</a>
-            </li>
-        </ul>
+        <div w3-include-html="menu/menu-source.html"></div>
+        <div w3-include-html="test.html"></div>
+        <p> Other Personal Branding:
+            <ul>
+                <li><a href="https://www.linkedin.com/in/gabriel-conlon/">LinkedIn</a></li>
+                <li><a href="https://github.com/gabrielconlon">GitHub</a></li>
+            </ul>
+        </p>
+    <script>
+    w3.includeHTML();
+    </script>
 
     </body>
     <footer>
         <ul class="footer-list">
             <li>&copy; Gabriel Conlon </li>
-            <li style="float:right"> 09 August 2021 </li>
+            <li> 09 August 2021 </li>
         </ul>
     </footer>
+
 </html>
