@@ -35,6 +35,9 @@ button {
 	padding: 0;
 	overflow: hidden;
 	background-color: #474b4f;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 }
 
 .menu-list-item {
@@ -45,11 +48,11 @@ button {
 	float: left;
 }
 
-.menu-list-item:hover:not(.active) {
+.menu-list-item:hover {
 	background: #86C232;
 }	
 
-.active {
+..menu-list-item:active {
     background: #61892F;
 }
 
