@@ -29,15 +29,19 @@ body {
 }
 
 .title-main {
-	font-size: 50px;
+	font-size: 30px;
 	color: #61892f;
 	text-align: left;
+}
+
+.header {
+    margin: 5px 0px;
 }
 
 /* Menu Bar */
 .menu-list {
 	list-style-type: none;
-	margin: 0;
+	margin: 10px 0px;
 	padding: 0;
 	overflow: hidden;
 	background-color: #474b4f;
@@ -50,8 +54,9 @@ body {
 	text-decoration: none;
 	color: white;
 	text-align: center;
-    padding: 14px 16px;
+    padding: 8px 16px;
 	float: left;
+    font-size: 15px;
 }
 
 .menu-list-item:hover:not(.active) {
@@ -61,7 +66,8 @@ body {
 ul li:active, 
 body.home li.home a,
 body.blog li.blog a,
-body.about li.about a {
+body.about li.about a 
+body.index li.index a {
     background: #61892f;
 }
 
@@ -72,7 +78,8 @@ body.about li.about a {
 }
 
 .table-columns-branding {
-    padding: 0px 10px;
+    text-align: center;
+    padding: 0px 20px;
 }
 
 .login {
