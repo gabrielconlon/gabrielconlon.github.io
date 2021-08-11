@@ -1,5 +1,7 @@
 /* stylesheet for gabrielconlon@github.io */
 body {
+    display: flex;
+    flex-direction: column;
 	background: #222629;
 	font-family: 'Share Tech Mono', monospace;
 	font-size: 25px;
@@ -73,6 +75,7 @@ body.index li.index a {
 
 .table-branding {
     font-size:15px;
+    width: 80%;
     margin-left:auto;
     margin-right:auto;
 }
@@ -87,4 +90,15 @@ body.index li.index a {
     padding: 0px 0px;
     margin: 0px 0px;
     font-size: 10px;
+}
+
+/* Digital Business Card */
+.github-stats {
+    display: flex;
+    width: 60%;
+}
+
+.connect-image {
+    width: 30%;
+    text-align: center;
 }
