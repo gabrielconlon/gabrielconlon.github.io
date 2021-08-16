@@ -102,3 +102,9 @@ body.index li.index a {
     width: 30%;
     text-align: center;
 }
+
+.socialmedia-menu-item {
+    float: right;
+    width: 30px;
+    padding: 0px 5px;
+}
