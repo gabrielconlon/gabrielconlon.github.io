@@ -18,7 +18,7 @@ if ( isset($_POST['sca']) ) {
 
  if( $count == 1 && $row['pass']==$password ) {
   $_SESSION['user'] = $row['userid'];
-  header("Location: profile.php"); 
+  header("Location: profile-auth.php"); 
   }
  else {
   $message = "Invalid Login";

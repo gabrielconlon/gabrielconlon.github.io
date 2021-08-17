@@ -16,6 +16,16 @@ $userRow = $stmt->fetch(PDO::FETCH_ASSOC);
 <head><title>You are logged in!</title></head>
 <body>
 Welcome to the protected profile page…<?php echo $userRow['fname']; ?>
+
+<table><tr>
+<td><a href="home.php">Home</a></td>
+<?php
+if($userRow['role' == "administrator") {
+	echo "<td><a href='edit.php'>EDIT</a></td>";
+}
+?>
+</tr>
+</table>
 <p><a href="logout.php">Logout Here</a></p>
 </body>
 </html>
