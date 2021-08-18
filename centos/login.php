@@ -1,10 +1,10 @@
 <?php
-session_start(); 
+session_start();
 if( isset($_SESSION['user'])!="" ){
  header("Location: index.php");
 }
 include_once 'connect.php';
-  
+
 if ( isset($_POST['sca']) ) {
  $username = trim($_POST['username']);
  $pass = trim($_POST['pass']);
@@ -18,7 +18,7 @@ if ( isset($_POST['sca']) ) {
 
  if( $count == 1 && $row['pass']==$password ) {
   $_SESSION['user'] = $row['userid'];
-  header("Location: profile-auth.php"); 
+  header("Location: profile-auth.php");
   }
  else {
   $message = "Invalid Login";

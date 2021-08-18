@@ -1,10 +1,32 @@
 <!doctype html>
+<head>
+  <title>Login</title>
+  <div w3-include-html="resources/resources.html"></div>
+  <script src="scripts/w3_inspired.js"></script>
+</head>
+
 <html>
-<form action="/action_page.php">
-  <label for="username">Username</label><br>
-  <input type="text" id="uname" name="username_input" value=""><br>
-  <label for="password">Password</label><br>
-  <input type="password" id="pswd" name="password_input" ><br><br>
-  <input type="submit" value="Submit">
-</form>
+  <body>
+
+    <div w3-include-html="menu/menu-header.html"></div>
+
+    <main class="main-content">
+      <form class="login-form" action=""> <!-- centos/login.php -->
+        <label class="login-label" for="username">Username</label><br>
+        <input class="login-input" type="text" id="uname" name="username_input" value=""><br>
+
+        <label class="login-label" for="password">Password</label><br>
+        <input class="login-input" type="password" id="pswd" name="password_input" ><br><br>
+
+        <input class="login-submit" type="submit" value="Submit">
+      </form>
+  </main>
+
+    <div w3-include-html="menu/footer.html"></div>
+
+    <script>
+    w3.includeHTML();
+    </script>
+
+  </body>
 </html>
