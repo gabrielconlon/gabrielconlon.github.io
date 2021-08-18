@@ -14,8 +14,8 @@ body {
 }
 
 .main-content {
-  flex: 1 1 auto;
   display: flex;
+  flex: 1 1 auto;
   flex-direction: column;
 }
 
@@ -66,28 +66,42 @@ body {
 ---------------------------------
 */
 .menu-list {
-	list-style-type: none;
+  list-style-type: none;
 	margin: 10px 0px;
 	padding: 0;
 	overflow: hidden;
 	background-color: #474b4f;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
 
 .menu-list-item {
+  position: flex;
 	text-decoration: none;
 	color: white;
 	text-align: center;
-    padding: 8px 16px;
+  padding: 8px 16px;
 	float: left;
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .menu-list-item:hover:not(.active) {
 	background: #86C232;
 }
+
+/* .menu-dropdown-content {
+  display: none;
+  background-color: #86C232;
+  min-width: 160px;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.menu-list:hover .menu-dropdown-content {
+  display: flex;
+  flex 1;
+} */
 
 /* active highlighting on menu items */
 ul li:active,
@@ -97,17 +111,24 @@ body.about li.about a
 body.index li.index a {
     background: #61892f;
 }
+
+
 /* for social media icons, resume, and other "personal branding" */
-.table-branding {
+.branding-table {
     font-size:15px;
     width: 80%;
     margin-left:auto;
     margin-right:auto;
 }
 
-.table-columns-branding {
+.branding-table-columns {
     text-align: center;
     padding: 0px 20px;
+}
+
+.branding-image {
+    width: 30%;
+    align: center;
 }
 
 .login {
@@ -129,7 +150,7 @@ body.index li.index a {
 
 .connect-image {
     width: 30%;
-    text-align: center;
+    align: center;
 }
 
 .socialmedia-menu-item {
@@ -154,7 +175,7 @@ body.index li.index a {
 }
 
 .login-input {
-  
+
 }
 
 .login-submit {
