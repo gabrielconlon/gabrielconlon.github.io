@@ -169,6 +169,7 @@ body.index li.index a {
 
 .login-form {
   flex: 0 1 auto;
+  margin: 10px 10px;
   font-size: 15px;
 }
 
