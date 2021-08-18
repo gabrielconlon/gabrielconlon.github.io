@@ -107,7 +107,7 @@ body {
 ul li:active,
 body.home li.home a,
 body.blog li.blog a,
-body.about li.about a
+body.about li.about a,
 body.index li.index a {
     background: #61892f;
 }
