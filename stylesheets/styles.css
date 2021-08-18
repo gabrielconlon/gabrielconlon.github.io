@@ -146,7 +146,6 @@ body.index li.index a {
 .github-stats {
     display: flex;
     margin: auto;
-    width: 80%;
     padding: 10px 10px;
 }
 
@@ -198,7 +197,7 @@ body.index li.index a {
 }
 
 .blog-post {
-  border: 1px solid rgb(50%, 50%, 50%);
+  /* border: 1px solid rgb(50%, 50%, 50%); */
 }
 .blog-post + .blog-post {
   margin-top: 10px;
