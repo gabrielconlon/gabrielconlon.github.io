@@ -3,7 +3,7 @@ layout: default
 title: About
 permalink: /about/
 ---
-[Home]({% link index.markdown %})
+[Home]({% link index.md %})
 
 <ul>
 <li><a href="https://www.linkedin.com/in/gabriel-conlon/">LinkedIn</a></li>
