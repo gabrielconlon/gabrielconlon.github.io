@@ -1,0 +1,213 @@
+:root {
+  --bgColor: #222629;
+  --menuColor: #474b4f;
+  --headerFontColor: #61892f;
+  --lightGreen: #86C232;
+  --lightGrey: #6b6e70;
+}
+
+/* stylesheet for gabrielconlon@github.io */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: var(--bgColor);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 25px;
+  color: white;
+  margin: 0px 0px;
+}
+
+.main-content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.note {
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+}
+
+/*
+---------------------------------
+       Header and Footer
+---------------------------------
+*/
+.footer-main {
+  flex: 0 1 auto;
+  order: 99;
+  font-size: 10px;
+  bottom: 0px;
+}
+
+.footer-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.footer-list-item {
+  text-align: center;
+  padding: 0 5px;
+  float: left;
+}
+
+.title-main {
+  font-size: 30px;
+  color: var(--headerFontColor);
+  text-align: left;
+}
+
+.header {
+  margin: 5px 0px;
+}
+
+/*
+---------------------------------
+             Menu Bar
+---------------------------------
+*/
+.menu-list {
+  list-style-type: none;
+  margin: 10px 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--menuColor);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.menu-list-item {
+  position: flex;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 8px 16px;
+  float: left;
+  font-size: 15px;
+}
+
+.menu-list-item:hover:not(.active) {
+  background: var(--lightGreen);
+}
+
+/* .menu-dropdown-content {
+  display: none;
+  background-color: #86C232;
+  min-width: 160px;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.menu-list:hover .menu-dropdown-content {
+  display: flex;
+  flex 1;
+} */
+/* active highlighting on menu items */
+ul li:active,
+body.home li.home a,
+body.blog li.blog a,
+body.about li.about a,
+body.index li.index a {
+  background: var(--headerFontColor);
+}
+
+/* for social media icons, resume, and other "personal branding" */
+.branding-table {
+  font-size: 15px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.branding-table-columns {
+  text-align: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.branding-image {
+  width: 30%;
+}
+
+.login {
+  float: right;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  font-size: 10px;
+}
+
+/*
+---------------------------------
+      Digital Business Card - index
+---------------------------------
+*/
+.github-stats {
+  flex: auto;
+  margin: 0px 0px;
+  padding: 10px 10px;
+}
+
+.connect-image {
+  width: 30%;
+  align: center;
+}
+
+.socialmedia-menu-item {
+  float: right;
+  width: 30px;
+  padding: 0px 5px;
+}
+
+/*
+---------------------------------
+               Login
+---------------------------------
+*/
+.login-form {
+  flex: 0 1 auto;
+  margin: 10px 10px;
+  font-size: 15px;
+}
+
+.login-label {}
+
+.login-input {}
+
+.login-submit {}
+
+/*
+---------------------------------
+               Blog
+---------------------------------
+*/
+.blog-list {
+  list-style: none;
+  flex: 0 1 auto;
+  order: 2;
+  padding: 0;
+}
+
+.blog-post {
+  /* border: 1px solid rgb(50%, 50%, 50%); */
+}
+
+.blog-post+.blog-post {
+  margin-top: 10px;
+}
+
+.blog-title {
+  padding: 0px 5px;
+}
+
+.blog-image {
+  displa: block;
+  width: 100%;
+}
