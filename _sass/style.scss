@@ -5,7 +5,6 @@
   flex: 0 1 auto;
 */
 .footer-main {
-
   order: 99;
   font-size: 10px;
   bottom: 0px;
@@ -22,4 +21,21 @@
   text-align: center;
   padding: 0 5px;
   float: left;
+}
+
+.header-list {
+  list-style-type: none;
+  background-color: #dddddd;
+  margin: 0;
+  padding: 0;
+}
+
+.header-list-item {
+  float: left;
+}
+
+.header-link {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
 }
