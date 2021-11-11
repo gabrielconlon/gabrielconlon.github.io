@@ -12,6 +12,7 @@
 .profile-image {
   float: left;
   height: 200px;
+  padding: 5px;
 }
 
 .about-body {
@@ -28,6 +29,7 @@
   order: 99;
   bottom: 0px;
   position: fixed;
+  text-align: center;
   padding: 5px 5px 0px 5px;
   width: 100%;
 }
