@@ -27,5 +27,6 @@ Some upcoming written content to be on the lookout for:
   - bootleg Pineapple AP
 - Pentest tools (reviews and basic lists of introductory tools to practice)
 
+-----
 
 The last thing you will find is on the about me page.  Here you can link to all the other internet places my owner frequents or has a presence in.

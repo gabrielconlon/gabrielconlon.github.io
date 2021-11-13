@@ -12,6 +12,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 |       Connect       |        Certs        |
 |:--------------------|:--------------------|
-<a href="https://www.linkedin.com/in/gabriel-conlon/">LinkedIn</a> | <a href="https://www.credly.com/badges/f57c55c7-7dc1-4fc3-b170-1c920fc5c62a/public_url">CompTIA - Security+</a> |
-<a href="https://github.com/gabrielconlon">GitHub</a> | <a href="https://www.scrumalliance.org/community/profile/gconlon">Scrum Alliance - Certified Scrum Master</a>| 
-
+<a href="https://www.linkedin.com/in/gabriel-conlon/"><img src="https://cdn.jsdelivr.net/npm/simple-icons@5.9.0/icons/linkedin.svg" height="30" width="40" />LinkedIn</a> | <a href="https://www.credly.com/badges/f57c55c7-7dc1-4fc3-b170-1c920fc5c62a/public_url">CompTIA - Security+</a> |
+<a href="https://github.com/gabrielconlon"><img src="https://cdn.jsdelivr.net/npm/simple-icons@5.9.0/icons/github.svg" height="30" width="40" />GitHub</a> | <a href="https://www.scrumalliance.org/community/profile/gconlon">Scrum Alliance - Certified Scrum Master</a>| 
+<a href="https://tryhackme.com/p/grateful.gabe"><img src="https://cdn.jsdelivr.net/npm/simple-icons@5.9.0/icons/tryhackme.svg" height="30" width="40" />TryHackMe</a> | |
