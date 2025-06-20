@@ -1,0 +1,30 @@
+baseURL = "https://gabrielconlon.github.io/"
+languageCode = "en-us"
+title = "Your Blog Title"
+theme = "stack"
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  mainSections = ["posts"]
+  description = "Security research, pentest writeups, and more."
+  enableDarkMode = true
+  favicon = "/favicon.ico"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
+
+[outputs]
+  home = ["HTML", "RSS"]
+  # You can add "JSON" back here later if needed and if the theme supports it:
+  # home = ["HTML", "RSS", "JSON"]
+
